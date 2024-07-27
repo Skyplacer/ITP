@@ -1,0 +1,293 @@
+/* ------------------------------------------ width ------------------------------------------ */
+.w-1{
+    width: 1%;
+}
+
+.w-5{
+    width: 5%;
+}
+
+.w-6{
+    width: 6%;
+}
+
+.w-8{
+    width: 8%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.w-16{
+    width: 16%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+/* ------------------------------------------ margins ------------------------------------------ */
+
+.mt-10{
+  margin-top: 10%;
+}
+
+.mt-20{
+  margin-top: 20%;
+}
+
+.mt-30{
+  margin-top: 30%;
+}
+
+.mb-10{
+  margin-bottom: 10%;
+}
+
+.mb-20{
+  margin-bottom: 20%;
+}
+
+.mb-30{
+  margin-bottom: 30%;
+}
+
+/* ------------------------------------------ random ------------------------------------------ */
+
+.cardHov {
+    transition: transform 0.25s ease-in-out;
+}
+
+.cardHov:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: background 0.25s linear;
+}
+
+.cardDPDashboard {
+  transition: transform 0.1s ease-in-out;
+}
+
+.cardDPDashboard:hover{
+  transform: scale(1.15);
+}
+
+.rounded-end-custom {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.iconDPDashboard {
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 6%;
+    margin-right: 7%;
+    font-size: 24px;
+}
+
+.scrollable-table {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+
+/* -------------------------------------- MainLogin.css -------------------------------------- */
+
+.main-login-container {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+.login-card {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+.login-card .card-body {
+  text-align: center;
+}
+
+.login-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.login-card .card-text {
+  font-size: 1rem;
+  color: #6c757d; /* Dark gray */
+  margin-bottom: 20px;
+}
+
+.login-card .btn-primary {
+  width: 100%;
+  background-color: #007bff; /* Primary blue */
+  border-color: #007bff; /* Primary blue */
+}
+
+.login-card .btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* -------------------------------------- for geography page in DPDashboard -------------------------------------- */
+
+.geography-container {
+  position: relative;
+}
+
+.map-image {
+  width: auto;
+  height: auto;
+}
+
+.district-button {
+  position: absolute;
+  border: none;
+}
+
+.Jaffna {
+  top: 140px;
+  left: 160px;
+}
+
+.Ampara {
+  top: 700px;
+  left: 550px;
+}
+
+.Kandy {
+  top: 705px;
+  left: 300px;
+}
+
+.Kilinochchi {
+  top: 220px;
+  left: 100px;
+}
+
+.Mannar {
+  top: 340px;
+  left: 80px;
+}
+
+.Mullaitivu {
+  top: 240px;
+  left: 250px;
+}
+
+.Nuwara-Eliya {
+  top: 780px;
+  left: 260px;
+}
+
+.Anuradhapura {
+  top: 470px;
+  left: 190px;
+}
+
+.Batticaloa {
+  top: 580px;
+  left: 480px;
+}
+
+.Hambantota {
+  top: 970px;
+  left: 400px;
+}
+
+.Matale {
+  top: 640px;
+  left: 290px;
+}
+
+.colombo {
+  top: 820px;
+  left: 80px;
+}
+
+.Galle {
+  top: 980px;
+  left: 150px;
+}
+
+.Kalutara {
+  top: 890px;
+  left: 120px;
+}
+
+.Matara {
+  top: 1000px;
+  left: 255px;
+}
+
+.Kurunegala {
+  top: 620px;
+  left: 150px;
+}
+
+.Badulla {
+  top: 780px;
+  left: 380px;
+}
+
+.Gampaha {
+  top: 770px;
+  left: 80px;
+}
+
+.Monaragala {
+  top: 840px;
+  left: 450px;
+}
+
+.Polonnaruwa {
+  top: 530px;
+  left: 340px;
+}
+
+.Trincomalee {
+  top: 370px;
+  left: 350px;
+}
+
+.Ratnapura {
+  top: 880px;
+  left: 250px;
+}
+
+.Vavuniya {
+  top: 350px;
+  left: 200px;
+}
+
+.Kegalle {
+  top: 735px;
+  left: 195px;
+}
+
+.Puttalam {
+  top: 560px;
+  left: 50px;
+}
+
+/* -------------------------------------- for Daily Process Dashboard -------------------------------------- */
+.headerBtns {
+  position: absolute;
+  top: 65px;
+  left: 1250px;
+}
